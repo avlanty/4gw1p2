@@ -66,6 +66,21 @@ div.top-tab div:last-child {
   padding-left: 5px;
 }
 
+div.top-tab .btn-custom {
+  background-color: green !important;
+  color: white !important;
+  border-color: green !important;
+}
+
+div.top-tab .post-button {
+  margin-left: auto;
+}
+
+div.btn-custom:hover {
+  background-color: darkgreen !important;
+  border-color: darkgreen !important;
+}
+
 div.post h2,
 div.post p {
   padding: 10px;
