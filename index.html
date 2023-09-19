@@ -3,116 +3,193 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/89e26ff049.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+XPnH5Fv2Cg1yF5/8z2dU8ol3Gf3dm2a5zz6p3OMk3D1te3z" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-xpN/X1GYznvbJnG4l8r+p0zTqF4a/c2f5Wq5F5u4l5Lpqu4mat1G5F5u4l5Lpqu4ma" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Instagram</title>
 </head>
 <body>
-    <div>
-        <header>
-            <div class="top-tab">
-                <div>
-                    <i class="fa-brands fa-instagram fa-2xl"></i>
-                    <h2><b>Instagram</b></h2>
-                </div>
-                <div class="post-button">
-                    <!-- Button trigger modal -->
-                    <button id="button" type="button" class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#exampleModal">Create a new post</button>
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    <div class="container"></div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary position-relative">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="auto" fill="currentColor" class="bi bi-instagram d-inline-block align-text-bottom me-1" viewBox="0 0 16 16">
+                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                            </svg>Instagram
+                        </a>
+                        <span class="navbar-item  d-flex">
+                                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Create a new post
+                                </button>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Create new post</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" placeholder="Add the caption of your post here" aria-label="Add the caption of your post here" aria-describedby="basic-addon2">
+                                            </div>
+                                        </div>
+                                            <div class="container-fluid mb-3">
+                                                <button type="button" class="btn btn-light btn-lg" href="">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="auto" fill="currentColor" class="bi bi-camera-fill" viewBox="0 0 16 16">
+                                                        <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                                                        <path d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2zm.5 2a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0z"/>
+                                                    </svg>
+                                                </button>
+                                                <button type="button" class="btn btn-light btn-lg" href="">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="auto" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-success">Publish</button>
+                                        </div>
+                                    </div>
+                                </div>  
                             </div>
-                            <div class="modal-body">
-                                ...
+                            <div class="collapse navbar-collapse bg-secondary rounded ms-2" id="navbarNavDropdown">
+                                <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-placement="left">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
+                                        <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z"/>
+                                        <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z"/>
+                                        </svg>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-end">
+                                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                                    <li><a class="dropdown-item" href="#">Accessibility</a></li>
+                                    <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item text-danger" href="#">Logout</a></li>
+                                    </ul>
+                                </li>
+                                </ul>
                             </div>
-                            <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                            </div>
-                        </div>
-                        </div>
+                        </span>
                     </div>
-                </div>
-                <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="fa-solid fa-gear"></i>
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Profile</a></li>
-                      <li><a class="dropdown-item" href="#">Accessibility</a></li>
-                      <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
-                      <li><a class="dropdown-item" href="#">Log out</a></li>
-                    </ul>
-                  </div>
-            </div>
-        </header>
-        <div class="container text-center">
-            <div class="row">
-              <div class="col">
-                Column
-              </div>
-              <div class="col">
-                Column
-              </div>
-              <div class="col">
-                Column
-              </div>
-            </div>
-          </div>
-        <div class="container">
-            <div class="post">
-                <div class="post-header">
-                    <div>
-                        <i class="fa-brands fa-html5 fa-2xl"></i>
-                        <div>
-                            <h2><b>HTML5</b></h2>
-                            <p>Rigoberto</p>
-                        </div>
-                    </div>    
-                    <div>
-                        <span><i class="fa-solid fa-ellipsis-vertical fa-2xl"></i></span>
-                    </div>
-                </div>
-                <div>
-                    <img src="https://picsum.photos/200"></img>
-                </div>
-                <div>
-                    <p>Liked by <b>4GeeksAcademy</b>, <b>html5</b>, <b>Web</b> and <b>100,000 others</b></p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                        Itaque voluptas in quasi obcaecati reprehenderit repellat magnam unde! 
-                        Accusamus, odit ex! Nulla ea fugit corrupti eligendi quam natus nobis architecto reprehenderit.</p>
-                </div>
+                </nav>
             </div>
         </div>
+        <ul class="nav nav-icon justify-content-center my-3">
+            <li class="nav-item mx-1" role="presentation">
+                <a class="nav-link active" id="pills-grid-tab" data-bs-toggle="pill" data-bs-target="#pills-grid" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-grid-3x3-gap" viewBox="0 0 16 16">
+                    <path d="M4 2v2H2V2h2zm1 12v-2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm0-5V7a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm0-5V2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm5 10v-2a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm0-5V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm0-5V2a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zM9 2v2H7V2h2zm5 0v2h-2V2h2zM4 7v2H2V7h2zm5 0v2H7V7h2zm5 0h-2v2h2V7zM4 12v2H2v-2h2zm5 0v2H7v-2h2zm5 0v2h-2v-2h2zM12 1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zm-1 6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zm1 4a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-2z"/>
+                    </svg>
+                </a>
+            </li>
+            <li class="nav-item mx-1">
+                <a class="nav-link" id="pills-card-tab" data-bs-toggle="pill" data-bs-target="#pills-card" type="button" role="tab" aria-controls="pills-card" aria-selected="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-square-fill" viewBox="0 0 16 16">
+                    <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2z"/>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-grid" role="tabpanel" aria-labelledby="pills-grid-tab" tabindex="0">
+                <div class="container">
+                    <div class="row d-flex justify-content-center g-2">
+                        <div class="col-sm-8 col-md-6 col-lg-4">
+                            <div class="p-1">
+                                <img src="https://picsum.photos/200" alt="card image cap" width="100%" height="auto">
+                            </div>
+                        </div>
+                        <div class="col-sm-8 col-md-6 col-lg-4">
+                            <div class="p-1">
+                                <img src="https://picsum.photos/200" alt="card image cap" width="100%" height="auto">
+                            </div>
+                        </div>
+                        <div class="col-sm-8 col-md-6 col-lg-4">
+                            <div class="p-1">
+                                <img src="https://picsum.photos/200" alt="card image cap" width="100%" height="auto">
+                            </div>
+                        </div>
+                        <div class="col-sm-8 col-md-6 col-lg-4">
+                            <div class="p-1">
+                                <img src="https://picsum.photos/200" alt="card image cap" width="100%" height="auto">
+                            </div>
+                        </div>
+                        <div class="col-sm-8 col-md-6 col-lg-4">
+                            <div class="p-1">
+                                <img src="https://picsum.photos/200" alt="card image cap" width="100%" height="auto">
+                            </div>
+                        </div>
+                        <div class="col-sm-8 col-md-6 col-lg-4">
+                            <div class="p-1">
+                                <img src="https://picsum.photos/200" alt="card image cap" width="100%" height="auto">
+                            </div>
+                        </div>
+                        <div class="col-sm-8 col-md-6 col-lg-4">
+                            <div class="p-1">
+                                <img src="https://picsum.photos/200" alt="card image cap" width="100%" height="auto">
+                            </div>
+                        </div>
+                        <div class="col-sm-8 col-md-6 col-lg-4">
+                            <div class="p-1">
+                                <img src="https://picsum.photos/200" alt="card image cap" width="100%" height="auto">
+                            </div>
+                        </div>
+                        <div class="col-sm-8 col-md-6 col-lg-4">
+                            <div class="p-1">
+                                <img src="https://picsum.photos/200" alt="card image cap" width="100%" height="auto">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content fade" id="pills-card" role="tabpanel" aria-labelledby="pills-card-tab" tabindex="0">
+                        <div class="card mx-auto col-6 my-2">
+                            <div class="card-header d-flex justify-content-between align-items-end">
+                                <div><h4>JWST</h4></div>
+                                <div><h6>01/01</h6></div>
+                            </div>
+                            <div class="card-body p-0">
+                                <img src="https://scitechdaily.com/images/JWST-Advanced-Deep-Extragalactic-Survey-Webb-NIRCam-Image-scaled.jpg" class="img-fluid mx-0 px-0" alt="card imgage cap">
+                            </div>
+                            <div class="card-footer">
+                                <h5 class="card-title">12,345,678 Likes</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, ducimus repellat? Sint, obcaecati. Dignissimos, quidem quia at facilis tenetur recusandae amet id. Quas, aperiam mollitia voluptates ab praesentium assumenda animi!</p>
+                            </div>
+                        </div>
+                        <div class="card mx-auto col-6 my-2">
+                            <div class="card-header d-flex justify-content-between align-items-end">
+                                <div><h4>JWST</h4></div>
+                                <div><h6>01/01</h6></div>
+                            </div>
+                            <div class="card-body p-0">
+                                <img src="https://scitechdaily.com/images/JWST-Advanced-Deep-Extragalactic-Survey-Webb-NIRCam-Image-scaled.jpg" class="img-fluid mx-0 px-0" alt="card imgage cap">
+                            </div>
+                            <div class="card-footer">
+                                <h5 class="card-title">12,345,678 Likes</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, ducimus repellat? Sint, obcaecati. Dignissimos, quidem quia at facilis tenetur recusandae amet id. Quas, aperiam mollitia voluptates ab praesentium assumenda animi!</p>
+                            </div>
+                        </div>
+                        <div class="card mx-auto col-6 my-2">
+                            <div class="card-header d-flex justify-content-between align-items-end">
+                                <div><h4>JWST</h4></div>
+                                <div><h6>01/01</h6></div>
+                            </div>
+                            <div class="card-body p-0">
+                                <img src="https://scitechdaily.com/images/JWST-Advanced-Deep-Extragalactic-Survey-Webb-NIRCam-Image-scaled.jpg" class="img-fluid mx-0 px-0" alt="card imgage cap">
+                            </div>
+                            <div class="card-footer">
+                                <h5 class="card-title">12,345,678 Likes</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, ducimus repellat? Sint, obcaecati. Dignissimos, quidem quia at facilis tenetur recusandae amet id. Quas, aperiam mollitia voluptates ab praesentium assumenda animi!</p>
+                            </div>
+                        </div>                  
+                    </div>
+                </div>
+        </div>
     </div>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var myModal = new bootstrap.Modal(document.getElementById('exampleModal'));
-            var modalTriggerButton = document.querySelector('[data-bs-toggle="modal"][data-bs-target="#exampleModal"]');
-            modalTriggerButton.addEventListener('click', function () {
-                myModal.show();
-            });
-        });
-    </script>
-    <script>
-        // Get a reference to the dropdown element
-        var dropdown = document.querySelector('.dropdown');
-    
-        // Initialize the Bootstrap dropdown
-        var bootstrapDropdown = new bootstrap.Dropdown(dropdown);
-    
-        // Programmatically open the dropdown
-        bootstrapDropdown.show();
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
